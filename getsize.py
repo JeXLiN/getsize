@@ -8,7 +8,7 @@ from os import lstat, path, stat, walk
 from os.path import getsize, isdir, isfile, islink
 from sys import argv, exit
 
-__version__ = '1.1.7'
+__version__ = '1.1.11'
 
 
 class GetSize:

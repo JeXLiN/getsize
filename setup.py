@@ -8,7 +8,7 @@ with open('README.md') as f:
 
 setup(
     name='getsize',
-    version='1.1.7',
+    version='1.1.11',
     description='Get and display the size of file and directory with binary prefixes',
     long_description=long_description,
     long_description_content_type='text/markdown',
