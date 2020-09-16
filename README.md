@@ -7,7 +7,7 @@ Get and display the size of file and directory with binary prefixes
 
 ## Usage
 
-`$ getsize [OPTION] FILE...`
+`$ getsize [OPTION] [FILE]...`
 
 ```
 Options:

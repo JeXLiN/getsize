@@ -85,7 +85,7 @@ class GetSize:
 
 def help():
     print(
-        'Usage: ' + path.basename(__file__) + ' [OPTION] FILE...\n\n'
+        'Usage: ' + path.basename(__file__) + ' [OPTION] [FILE]...\n\n'
         'Options:\n\
     -h - Show this help\n\
     -v - Show version information\n\
@@ -110,9 +110,7 @@ def main():
         exit(2)
 
     if opts == [] and args == []:
-        print('Usage: ' + path.basename(__file__) + ' [OPTION] FILE...')
-        print('Type \'' + path.basename(__file__) + ' -h\' for help')
-        exit(1)
+        g.getSize(".")
     elif opts == []:
         g.getSize(argv[1:])
 
